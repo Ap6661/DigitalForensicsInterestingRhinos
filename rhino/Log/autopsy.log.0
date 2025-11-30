@@ -1,0 +1,327 @@
+2025-11-29 17:12:28.465 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2025-11-29 17:12:28.53 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2025-11-29 17:12:28.542 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-11-29 17:12:28.543 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2025-11-29 17:12:28.553 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-11-29 17:12:29.585 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2025-11-29 17:12:29.695 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2025-11-29 17:12:29.842 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.42.0.0 loaded in native mode
+2025-11-29 17:12:29.883 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened rhino (rhino_20251129_171226) in /home/apnda/Documents/Forensics/project/rhino as the current case
+2025-11-29 17:12:30.188 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2025-11-29 17:12:30.725 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-11-29 17:12:31.575 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-11-29 17:12:31.902 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2025-11-29 17:12:32.061 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-11-29 17:12:32.101 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.21.0
+2025-11-29 17:12:32.142 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.21.0
+2025-11-29 17:12:32.181 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.21.0
+2025-11-29 17:12:32.221 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.21.0
+2025-11-29 17:12:32.223 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.21.0
+2025-11-29 17:12:32.282 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.21.0
+2025-11-29 17:12:32.324 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.21.0
+2025-11-29 17:12:32.364 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.21.0
+2025-11-29 17:12:32.365 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.21.0
+2025-11-29 17:12:32.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.21.0
+2025-11-29 17:12:32.404 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.21.0
+2025-11-29 17:12:32.445 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-11-29 17:12:32.484 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.21.0
+2025-11-29 17:12:32.525 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.21.0
+2025-11-29 17:12:32.571 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.21.0
+2025-11-29 17:12:32.61 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.21.0
+2025-11-29 17:12:32.612 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.21.0
+2025-11-29 17:12:32.615 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.21.0
+2025-11-29 17:12:32.616 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.21.0
+2025-11-29 17:12:32.68 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-11-29 17:12:32.681 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.21.0
+2025-11-29 17:12:34.835 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient createSSLContext
+INFO: Creating custom SSL context
+2025-11-29 17:12:34.835 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getKeyManagers
+INFO: Using default algorithm to create trust store: SunX509
+2025-11-29 17:12:34.835 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getTrustManagers
+INFO: Using default algorithm to create trust store: PKIX
+2025-11-29 17:12:34.933 com.basistech.df.cybertriage.autopsy.incidentoptions.CTSettings getAppDataLocalDirectory
+INFO: Non-windows Application Data Path: /home/apnda/.cybertriage
+2025-11-29 17:14:34.528 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of /
+2025-11-29 17:14:34.528 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1764458074528
+2025-11-29 17:14:34.531 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2025-11-29 17:14:35.427 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-11-29 17:14:35.487 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 0 shutting down
+2025-11-29 17:14:35.509 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 0
+2025-11-29 17:14:35.511 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 0
+2025-11-29 17:14:35.528 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Error starting Recent Activity ingest module for job 0
+org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException: perl not found in your system
+	org.sleuthkit.autopsy.recentactivity.ExtractRegistry.<init>(ExtractRegistry.java:261)
+	org.sleuthkit.autopsy.recentactivity.RAImageIngestModule.startUp(RAImageIngestModule.java:69)
+	org.sleuthkit.autopsy.ingest.IngestPipeline$PipelineModule.startUp(IngestPipeline.java:418)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUpIngestModules(IngestPipeline.java:159)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUp(IngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipeline(IngestJobExecutor.java:259)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipelines(IngestJobExecutor.java:221)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUp(IngestJobExecutor.java:193)
+	org.sleuthkit.autopsy.ingest.IngestJob.start(IngestJob.java:235)
+	org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob(IngestManager.java:627)
+	org.sleuthkit.autopsy.ingest.IngestJobInputStream.<init>(IngestJobInputStream.java:42)
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:447)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Error starting Android Analyzer (aLEAPP) ingest module for job 0
+org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException: aLeapp module requires windows.
+	org.sleuthkit.autopsy.modules.leappanalyzers.ALeappAnalyzerIngestModule.startUp(ALeappAnalyzerIngestModule.java:99)
+	org.sleuthkit.autopsy.ingest.IngestPipeline$PipelineModule.startUp(IngestPipeline.java:418)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUpIngestModules(IngestPipeline.java:159)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUp(IngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipeline(IngestJobExecutor.java:259)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipelines(IngestJobExecutor.java:221)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUp(IngestJobExecutor.java:193)
+	org.sleuthkit.autopsy.ingest.IngestJob.start(IngestJob.java:235)
+	org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob(IngestManager.java:627)
+	org.sleuthkit.autopsy.ingest.IngestJobInputStream.<init>(IngestJobInputStream.java:42)
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:447)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Error starting iOS Analyzer (iLEAPP) ingest module for job 0
+org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException: iLeapp module requires windows.
+	org.sleuthkit.autopsy.modules.leappanalyzers.ILeappAnalyzerIngestModule.startUp(ILeappAnalyzerIngestModule.java:99)
+	org.sleuthkit.autopsy.ingest.IngestPipeline$PipelineModule.startUp(IngestPipeline.java:418)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUpIngestModules(IngestPipeline.java:159)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUp(IngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipeline(IngestJobExecutor.java:259)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipelines(IngestJobExecutor.java:221)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUp(IngestJobExecutor.java:193)
+	org.sleuthkit.autopsy.ingest.IngestJob.start(IngestJob.java:235)
+	org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob(IngestManager.java:627)
+	org.sleuthkit.autopsy.ingest.IngestJobInputStream.<init>(IngestJobInputStream.java:42)
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:447)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Error starting YARA Analyzer ingest module for job 0
+org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException: The YARA ingest module is only available on 64bit Windows.
+	org.sleuthkit.autopsy.modules.yara.YaraIngestModule.startUp(YaraIngestModule.java:89)
+	org.sleuthkit.autopsy.ingest.IngestPipeline$PipelineModule.startUp(IngestPipeline.java:418)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUpIngestModules(IngestPipeline.java:159)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.startUp(IngestPipeline.java:113)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipeline(IngestJobExecutor.java:259)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUpIngestModulePipelines(IngestJobExecutor.java:225)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.startUp(IngestJobExecutor.java:193)
+	org.sleuthkit.autopsy.ingest.IngestJob.start(IngestJob.java:235)
+	org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob(IngestManager.java:627)
+	org.sleuthkit.autopsy.ingest.IngestJobInputStream.<init>(IngestJobInputStream.java:42)
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:447)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 0)
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+SEVERE: Ingest job 0 could not be started
+2025-11-29 17:14:35.529 org.sleuthkit.autopsy.casemodule.ImageDSProcessor runWithIngestStream
+SEVERE: Error starting ingest modules
+org.sleuthkit.datamodel.TskCoreException: Error starting ingest modules
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:456)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+org.sleuthkit.autopsy.ingest.IngestManager$IngestManagerException: Errors occurred while starting ingest
+	org.sleuthkit.autopsy.ingest.IngestManager.openIngestStream(IngestManager.java:456)
+	org.sleuthkit.autopsy.casemodule.ImageDSProcessor.runWithIngestStream(ImageDSProcessor.java:284)
+	org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.lambda$startDataSourceProcessing$0(AddImageWizardAddingProgressPanel.java:371)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-29 17:14:35.538 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 0)
+2025-11-29 17:14:35.538 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 0)
+2025-11-29 17:14:35.538 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 0)
+2025-11-29 17:14:35.548 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 cancelled at 1764458075548
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.21.0
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.21.0
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.21.0
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.21.0
+2025-11-29 17:15:22.2 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.21.0
+2025-11-29 17:15:22.201 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.21.0
+2025-11-29 17:15:22.202 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.21.0
+2025-11-29 17:15:22.202 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.21.0
+2025-11-29 17:15:22.202 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.21.0
+2025-11-29 17:15:22.202 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.21.0
+2025-11-29 17:15:22.202 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.21.0
+2025-11-29 17:15:22.306 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-11-29 17:15:22.307 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.21.0
+2025-11-29 17:15:40.51 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 1 at 1764458140510
+2025-11-29 17:15:40.651 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-11-29 17:15:40.786 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file batch mode (data source = RHINOUSB.dd, data source object ID = 1, job ID = 1)
+2025-11-29 17:15:40.787 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of RHINOUSB.dd starting
+2025-11-29 17:15:40.788 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of RHINOUSB.dd finished
+2025-11-29 17:15:40.788 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of RHINOUSB.dd starting
+2025-11-29 17:15:40.789 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source RHINOUSB.dd
+2025-11-29 17:15:40.789 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source RHINOUSB.dd
+2025-11-29 17:15:40.79 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of RHINOUSB.dd finished
+2025-11-29 17:17:02.54 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 1)
+2025-11-29 17:17:02.547 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 1 shutting down
+2025-11-29 17:17:02.548 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 2 shutting down
+2025-11-29 17:17:03.59 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 141
+2025-11-29 17:17:03.592 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 13,099
+2025-11-29 17:17:03.593 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>3</td></tr><tr><td>Files with general strings extracted</td><td>137</td></tr><tr><td>Metadata only was indexed</td><td>0</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2025-11-29 17:17:03.673 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 1)
+2025-11-29 17:17:03.674 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of RHINOUSB.dd starting
+2025-11-29 17:17:03.676 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 7,920
+2025-11-29 17:17:03.676 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash calculation for RHINOUSB.dd
+2025-11-29 17:17:04.317 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from RHINOUSB.dd: 80348c58eec4c328ef1f7709adc56a54
+2025-11-29 17:17:04.317 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from RHINOUSB.dd: b0a37478210eb2dac2672232aad67060842b6558
+2025-11-29 17:17:04.317 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from RHINOUSB.dd: ce550424200a997c61b413941c8ef4df9619a2f96579674952294a176a32be65
+2025-11-29 17:17:04.32 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of RHINOUSB.dd finished
+2025-11-29 17:17:04.32 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 1)
+2025-11-29 17:17:04.32 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = RHINOUSB.dd, data source object ID = 1, job ID = 1)
+2025-11-29 17:17:04.322 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 1 completed at 1764458224322
+2025-11-29 17:37:28.645 org.sleuthkit.autopsy.coreutils.StringExtract$StringExtractUnicodeTable init
+INFO: initialized, unicode table loaded
+2025-11-29 20:37:01.873 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-11-29 20:37:01.876 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.21.0
+2025-11-29 20:37:01.877 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.21.0
+2025-11-29 20:37:01.879 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.21.0
+2025-11-29 20:37:01.881 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.21.0
+2025-11-29 20:37:01.882 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.21.0
+2025-11-29 20:37:01.884 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.21.0
+2025-11-29 20:37:01.885 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.21.0
+2025-11-29 20:37:01.886 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.21.0
+2025-11-29 20:37:01.922 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.21.0
+2025-11-29 20:37:01.924 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.21.0
+2025-11-29 20:37:01.924 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.21.0
+2025-11-29 20:37:01.925 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-11-29 20:37:01.927 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.21.0
+2025-11-29 20:37:01.928 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.21.0
+2025-11-29 20:37:01.93 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.21.0
+2025-11-29 20:37:01.931 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.21.0
+2025-11-29 20:37:01.931 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.21.0
+2025-11-29 20:37:01.931 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.21.0
+2025-11-29 20:37:01.932 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.21.0
+2025-11-29 20:37:02.01 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-11-29 20:37:02.01 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.21.0

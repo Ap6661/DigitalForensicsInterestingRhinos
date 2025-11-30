@@ -1,0 +1,24 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,16 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 230566 bytes (226 KiB)
+
+Listing archive: contraband.zip
+
+--
+Path = contraband.zip
+Type = zip
+Physical Size = 230566
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2004-04-26 17:00:12 ....A       230665       230448  rhino2.jpg
+------------------- ----- ------------ ------------  ------------------------
+2004-04-26 17:00:12             230665       230448  1 files
+
+
+
+
+# Password: monkey
